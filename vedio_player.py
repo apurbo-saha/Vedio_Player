@@ -21,7 +21,7 @@ try:
 
    if "play" in command:
        play_vedio = command.replace("play", "")
-       print("plaing" + play_vedio + "...")
+       print("playing" + play_vedio + "...")
        pywhatkit.playonyt(play_vedio)
 
 except:
